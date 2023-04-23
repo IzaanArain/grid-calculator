@@ -12,7 +12,7 @@ const num7=document.getElementById("7")
 const num8=document.getElementById("8")
 const num9=document.getElementById("9")
 
-//Operators and symbols
+//getting Operators and symbols
 const add=document.getElementById("+")
 const sub=document.getElementById("-")
 const div=document.getElementById("/")
@@ -20,8 +20,10 @@ const mul=document.getElementById("x")
 const eq=document.getElementById("=")
 const dec=document.getElementById(".")
 const reset=document.getElementById("reset")
-//Input field
+
+//getting Input field
 const numInput=document.getElementById("numInput")
+
 // console.log(one.textContent)
 // console.log(num2)
 // console.log(parseFloat(num2)+parseFloat(num1)
@@ -66,22 +68,17 @@ reset.addEventListener('click',()=>{
 })
 
 //operators
-let op=""
+
 add.addEventListener('click',()=>{
-    numInput.value+=add.textContent
-    op="+"
 })
 sub.addEventListener('click',()=>{
-    numInput.value+=sub.textContent
-    op="-"
+    
 })
 mul.addEventListener('click',()=>{
-    numInput.value+=mul.textContent
-    op="x"
+    
 })
 div.addEventListener('click',()=>{
-    numInput.value+=div.textContent
-    op="/"
+    
 })
 
 //decimal

@@ -126,8 +126,13 @@ input{
     /* background: yellow; */
 }
 
-.reset{
+.adBtn{
     width: 100%;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-between;
+}
+.reset{
     margin-top: 20px;
 }
 footer{
