@@ -52,7 +52,7 @@ a{
 
 main{
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: grid;
     grid-template-columns: 50% 50%;
     background-color:#2596be;
@@ -136,4 +136,28 @@ footer{
      color:gold;
     font-weight: bolder;
     font-style: italic;
+}
+
+@media screen and (max-width:768px){
+    main{
+        grid-template-columns: 100%;
+    }
+    header{
+        grid-template-columns: 100%;
+        grid-template-rows: auto,auto;
+    }
+    nav{
+        /* background-color: aqua; */
+        /* padding: 10px; */
+        justify-content: center;
+        
+    }
+    nav ul{
+        grid-template-columns: 100%;
+        text-align: center;
+        /* background-color: #2596be; */
+    }
+    a{
+        font-size: 30px;
+    }
 }
