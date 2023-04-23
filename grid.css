@@ -148,7 +148,6 @@ footer{
     }
     header{
         grid-template-columns: 100%;
-        grid-template-rows: auto,auto;
     }
     nav{
         /* background-color: aqua; */
