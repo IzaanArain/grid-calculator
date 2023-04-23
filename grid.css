@@ -126,6 +126,10 @@ input{
     /* background: yellow; */
 }
 
+.reset{
+    width: 50%;
+    margin-top: 20px;
+}
 footer{
     font-size: 20px;
     padding: 10px;
@@ -159,5 +163,8 @@ footer{
     }
     a{
         font-size: 30px;
+    }
+    .cal{
+        width: auto;
     }
 }
