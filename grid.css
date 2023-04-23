@@ -142,7 +142,7 @@ footer{
     font-style: italic;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:850px){
     main{
         grid-template-columns: 100%;
     }
@@ -165,4 +165,10 @@ footer{
     .cal{
         width: auto;
     }
+}
+
+@media screen and (max-width:450px) {
+    section{
+        display: none;
+    }    
 }
