@@ -19,7 +19,8 @@ const div=document.getElementById("/")
 const mul=document.getElementById("x")
 const eq=document.getElementById("=")
 const dec=document.getElementById(".")
-const reset=document.getElementById("reset")
+const reset=document.getElementById("ac")
+const clear=document.getElementById("ce")
 
 //getting Input field
 const numInput=document.getElementById("numInput")
@@ -67,6 +68,11 @@ reset.addEventListener('click',()=>{
     numInput.value=null;
 })
 
+//clear button
+clear.addEventListener("click",()=>{
+    numInput.value=numInput.value.slice(0,-1)
+})
+
 //operators
 
 add.addEventListener('click',()=>{
@@ -77,12 +83,16 @@ sub.addEventListener('click',()=>{
     
 })
 mul.addEventListener('click',()=>{
-    numInput.value+=sub.textContent
+    numInput.value+=mul.textContent
     
 })
 div.addEventListener('click',()=>{
-    numInput.value+=sub.textContent
+    numInput.value+=div.textContent
     
+})
+
+eq.addEventListener("click",()=>{
+    numInput.value=eval(numInput.value)
 })
 
 //decimal

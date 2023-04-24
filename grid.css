@@ -126,15 +126,10 @@ input{
     /* background: yellow; */
 }
 
-.adBtn{
-    width: 100%;
-    display: grid;
-    grid-template-columns: 45% 45%;
-    justify-content: space-between;
+.eq{
+    grid-column: 3/ span 2;
 }
-.reset{
-    margin-top: 20px;
-}
+
 footer{
     font-size: 20px;
     padding: 10px;
