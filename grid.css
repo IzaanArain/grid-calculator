@@ -24,6 +24,7 @@ header{
     font-weight: bolder;
     font-style: italic;
     margin-left: 20px;
+    text-shadow: 5px 5px 5px black;
 }
 
 #grid-logo{
@@ -52,8 +53,17 @@ a{
     font-size: 20px;
     font-family: monospace;
     color: white;
+    text-shadow: 5px 5px 5px black;
 }
 
+a:active{
+    background-color: #154c79;
+}
+a:hover{
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow:2px 2px 10px black;
+}
 main{
     width: 100%;
     height: auto;
@@ -74,6 +84,7 @@ section{
 article{
     padding: 100px;
     color: white;
+    text-shadow: 5px 5px 5px black;
 }
 aside{
     width: 100%;
@@ -105,6 +116,10 @@ button{
     background-color: gold;
     color:black;
     box-shadow: 5px 5px 10px 2px black;
+    cursor: pointer;
+}
+.op button{
+    background-color: orangered;
 }
 
 button:hover{
@@ -148,6 +163,7 @@ footer{
      color:gold;
     font-weight: bolder;
     font-style: italic;
+    text-shadow: 5px 5px 5px black;
 }
 
 @media screen and (max-width:800px){
