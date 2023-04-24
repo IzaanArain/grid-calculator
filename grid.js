@@ -21,6 +21,7 @@ const eq=document.getElementById("=")
 const dec=document.getElementById(".")
 const reset=document.getElementById("ac")
 const clear=document.getElementById("ce")
+const percentage=document.getElementById("per")
 
 //getting Input field
 const numInput=document.getElementById("numInput")
@@ -91,6 +92,7 @@ div.addEventListener('click',()=>{
     
 })
 
+//equals
 eq.addEventListener("click",()=>{
     numInput.value=eval(numInput.value)
 })
@@ -98,6 +100,11 @@ eq.addEventListener("click",()=>{
 //decimal
 dec.addEventListener('click',()=>{
     numInput.value+=dec.textContent
+})
+
+//percentage
+percentage.addEventListener("click",()=>{
+    numInput.value+=percentage.textContent
 })
 
 
