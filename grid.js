@@ -70,14 +70,18 @@ reset.addEventListener('click',()=>{
 //operators
 
 add.addEventListener('click',()=>{
+    numInput.value+=add.textContent
 })
 sub.addEventListener('click',()=>{
+    numInput.value+=sub.textContent
     
 })
 mul.addEventListener('click',()=>{
+    numInput.value+=sub.textContent
     
 })
 div.addEventListener('click',()=>{
+    numInput.value+=sub.textContent
     
 })
 
