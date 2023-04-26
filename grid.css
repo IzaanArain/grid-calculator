@@ -5,12 +5,16 @@
     font-family: monospace;
 }
 
+
 header{
+    height: 10vh;
     background-color: #063970;
-    padding: 10px;
+    /* padding: 10px; */
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto auto auto;
+    align-content: center;
+    padding:20px 0;
 }
 
 .logo{
@@ -31,10 +35,10 @@ header{
 #grid-logo{
     width: 100%;
     height: 10vh;
-    box-shadow: 3px 3px 10px 2px black;
-    border: none;
+    box-shadow: 3px 3px 10px 3px black;
+    border: 2px solid dodgerblue;
     border-radius: 100%;
-    margin-bottom: 5px;
+    margin-top: 15px;
 }
 nav{
     display: grid;
@@ -68,7 +72,7 @@ a:hover{
 }
 main{
     width: auto;
-    height: auto;
+    height: 80vh;
     display: grid;
     grid-template-columns: 50% 50%;
     /* background-color:#2596be; */
@@ -78,12 +82,11 @@ main{
 
 section{
     width: 100%;
-    /* height: 100vh; */
     /* background-color: tomato; */
     display: grid;
     justify-content: center;
     align-content: center;
-    margin: 30px 0;
+    /* margin: 30px 0; */
 }
 article{
     /* background-color:aqua; */
@@ -106,7 +109,6 @@ article h1{
 }
 aside{
     width: 100%;
-    height: 75vh;
     /* background-color: aqua; */
     display: grid;
     justify-content: center;
@@ -121,7 +123,7 @@ aside{
     background-color: black;
     padding: 20px;
     border-radius: 30px;
-    margin: 20px;
+    /* margin: 20px; */
     background-color: #063970;
     box-shadow: 5px 5px 10px 5px black;
 }
@@ -173,11 +175,13 @@ input{
 }
 
 footer{
+    height: 10vh;
     font-size: 20px;
     padding: 10px;
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
+    align-content: center;
      background-color: #063970;
      color:gold;
     font-weight: bolder;
@@ -188,9 +192,16 @@ footer{
 @media screen and (max-width:1100px){
     main{
         grid-template-columns: 100%;
+        height: auto;
+    }
+
+    aside{
+        margin-top: 50px;
     }
     header{
         grid-template-columns: 100%;
+        height: auto;
+        padding-bottom:10px;
     }
     nav{
         /* background-color: aqua; */
@@ -216,5 +227,9 @@ footer{
     }    
     aside{
         height: auto;
+    }
+
+    .cal{
+        width: 350px;
     }
 }
