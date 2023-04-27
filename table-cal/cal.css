@@ -14,6 +14,8 @@
     border: none;
     font-size: 5rem;
     font-family: monospace;
+    box-shadow: 5px 5px 10px 2px black;
+    cursor: pointer;
 }
 
 .btn:hover{
@@ -24,11 +26,14 @@
 .btn:active{
     color:black;
     background-color:greenyellow;
+    
 }
 #num{
     font-size: 5rem;
     width: 100%;
     border-radius:1rem;
+    border: none;
+    box-shadow: 5px 5px 10px 2px black;
 }
 td,th{
     padding:1rem;
@@ -39,10 +44,12 @@ table{
     padding:1rem;
     width: 400px;
     height: auto;
+    box-shadow: 5px 5px 10px 5px black;
 }
 caption{
-    font-size: 3rem;
+    font-size:3rem;
     font-family: monospace;
+    color: white;
 }
 main{
     width: 100vw;
@@ -51,6 +58,7 @@ main{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    background-color: #154c79;
 }
 
 
