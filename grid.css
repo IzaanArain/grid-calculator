@@ -7,14 +7,12 @@
 
 
 header{
-    height: 10vh;
+    height: 11vh;
     background-color: #063970;
-    /* padding: 10px; */
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto auto auto;
     align-content: center;
-    padding:20px 0;
 }
 
 .logo{
@@ -175,7 +173,7 @@ input{
 }
 
 footer{
-    height: 10vh;
+    height: 9vh;
     font-size: 20px;
     padding: 10px;
     display: grid;
