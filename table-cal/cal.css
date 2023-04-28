@@ -12,7 +12,7 @@
     color: black;
     border-radius: 1rem;
     border: none;
-    font-size: 5rem;
+    font-size: 3rem;
     font-family: monospace;
     box-shadow: 5px 5px 10px 2px black;
     cursor: pointer;
@@ -42,9 +42,8 @@ table{
     border-radius: 3rem;
     background-color:darkgray ;
     padding:1rem;
-    width: 400px;
-    height: auto;
     box-shadow: 5px 5px 10px 5px black;
+    width: 400px;
 }
 caption{
     font-size:3rem;
@@ -52,13 +51,14 @@ caption{
     color: white;
 }
 main{
-    width: 100vw;
-    height: 80vh;
+    width: auto;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     background-color: #154c79;
+    padding: 30px;
 }
 
 
